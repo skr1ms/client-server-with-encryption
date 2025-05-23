@@ -107,7 +107,7 @@ E = w1 * T'enc + w2 * T'dec + w3 * K' + w4 * P'attack
 - `benchmark/` — нагрузочные тесты
 
 ## Авторы
-- [Ваше имя]
+- skr1ms (takuya)
 
 ## Лицензия
 MIT
