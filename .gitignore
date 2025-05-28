@@ -1,0 +1,95 @@
+# Исполняемые файлы Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+client-server
+client-server.exe
+app
+app.exe
+
+# Тестовые бинарные файлы
+*.test
+
+# Кэш модулей Go
+go.sum
+
+# Файлы IDE/редакторов
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Результаты тестов и логи
+*.json
+*.log
+*.out
+load_test_results_*.json
+security_test_results_*.json
+benchmark_results_*.json
+test_results_*.json
+
+# Временные файлы
+*.tmp
+*.temp
+/tmp/
+/temp/
+
+# Криптографические ключи (НЕ КОММИТИТЬ!)
+*.key
+*.pem
+*.p12
+*.pfx
+private_keys/
+keys/
+certificates/
+
+# Конфигурационные файлы с секретами
+config.json
+secrets.yaml
+.env
+.env.local
+
+# Профили производительности
+*.prof
+*.pprof
+
+# Покрытие кода
+coverage.out
+coverage.html
+
+# Директории зависимостей
+vendor/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Backup файлы
+*.bak
+*.backup
+
+# Папки сборки
+build/
+dist/
+bin/
+
+# Документация (автогенерированная)
+docs/generated/
+
+# Результаты нагрузочного тестирования
+stress_test_results/
+load_test_output/
+
+# Логи безопасности
+security_logs/
+attack_logs/
