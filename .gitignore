@@ -1,13 +1,21 @@
-# Исполняемые файлы Go
+# Исполняемые файлы Go (только в корне)
 *.exe
 *.exe~
 *.dll
 *.so
 *.dylib
-client-server
-client-server.exe
-app
-app.exe
+/client-server
+/client-server.exe
+/app
+/app.exe
+
+# Разрешаем директории с исходным кодом
+!cmd/
+!cmd/**/
+!internal/
+!internal/**/
+!tests/
+!tests/**/
 
 # Тестовые бинарные файлы
 *.test
