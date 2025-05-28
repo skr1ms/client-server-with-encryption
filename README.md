@@ -37,7 +37,7 @@
 
 ### Сборка
 ```bash
-cd "c:\Users\ilya2\Desktop\client-server-with-encryption"
+cd "../client-server-with-encryption"
 go build ./cmd/app
 ```
 
